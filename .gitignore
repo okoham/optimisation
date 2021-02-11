@@ -1,0 +1,6 @@
+__pycache__/*
+beam/__pycache__/*
+.ipynb_checkpoints/*
+beam/.ipynb_checkpoints/*
+laminate/.ipynb_checkpoints/*
+*.csv

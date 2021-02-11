@@ -1,0 +1,161 @@
+Bracketing
+Fibonacci search
+Golden section search
+Quadratic fit search
+Shubert-Piyavskii Method
+Bisection method
+Local Descent
+Line search
+Approximate line search
+Backtracking line search
+Trust region methods
+Gradient descent
+Conjugate gradient method
+Gradient descent with Momentum
+Nesterov momentum
+Adagrad
+RMSProp
+Adadelta
+Adam
+Hypergradient descent
+Newton's method
+Secant method
+Quasi-Newton methods
+DFP
+BFGS
+L-BFGS
+Direct methods
+Cyclic coordinate search
+Powell's method
+Hooke-Jeeves method
+Generalised pattern search
+Nelder-Mead simplex method
+DIRECT (Divided Rectangles)
+Univariate DIRECT
+Multivariate DIRECT
+Stochastic methods
+Noisy descent
+Mesh adaptive direct search
+Simulated annealing
+Cross-entropy method
+Natural evolution strategies
+Covariance matrix adatation
+Population methods
+Genetic algorithms
+Differential evolution
+Particle swarm optimization
+Firefly algorithm
+Cuckoo search
+Hybrid methods
+Baldwinian learning
+Lamarckian learning
+Constrained optimization
+Lagrange multiplier method
+Penalty methods
+Augmented Lagrange method
+Interior point methods
+Linear constrained optimization
+Simplex algorithm
+Multiobjective optimization
+Constraint method
+Lexicographic method
+Weighted sum method
+Goal programming
+Weighted exponential sum method
+Weighted min-max method
+Exponential weighted criterion
+Multiobjective population methods
+Subpopulation methods
+Nondonimation ranking
+Pareto filters
+Niche techniques
+Preference elicitation
+Model identification
+Paired query selection
+Design selection
+Surrogate optimization
+Prediction-based exploration
+Error-based exploration
+Lower confidence bound exploration
+Probability of improvement exploration
+Expected improvement exploration
+Optimization under uncertainty
+Discrete optimization
+Integer programming
+Rounding method
+Cutting plane method
+Branch and bound
+Dynamic programming
+Ant colony optimisation
+Expression optimisation
+Genetic programming
+Probabilistic grammars
+Probabilistic prototype trees
+pattern search (PS)
+genetic algorithm (GA)
+simulated annealing (SA)
+tabu search (TS)
+ant colony optimization (ACO)
+particle swarm optimization (PSO)
+differential evolution (DE)
+harmony search (HS)
+shuffled frog‐leaping algorithm (SFLA)
+honey‐bee mating optimization (HBMO)
+invasive weed optimization (IWO)
+central force optimization (CFO)
+biogeography‐based optimization (BBO)
+firefly algorithm (FA)
+gravity search algorithm (GSA)
+bat algorithm (BA)
+plant propagation algorithm (PPA)
+water cycle algorithm (WCA)
+symbiotic organisms search (SOS)
+comprehensive evolutionary algorithm (CEA)
+Linear search
+Depth first searc
+Backtracking search
+Breadth first search
+A* search
+Greedy best first search
+Uniform cost search
+Depth-Limited search
+Iterative deepening depth-first search
+Bidirectional search
+RBFS (recursive best-first search) 
+SMA∗ (simplified memory-bounded A∗)
+Dijkstra-Algorithmus
+local search
+Hill climbing
+Local beam search
+Stochastic beam search
+Newton-Raphson method
+Linear programming
+Convex optimization
+Tabu search
+Metropolis algorithm
+Adversarial search
+Backtracking search for CSPs
+Response surface methodology
+Kriging
+SNOPT - Sparse NOlinear OPTimizer
+NLPQL - Non-Linear Programming by Quadratic Lagrangian
+NLPQLP - NonLinear Programming with Non-Monotone and Distributed Line Search
+FSQP - Feasible Sequential Quadratic Programming
+SLSQP - Sequential Least Squares Programming
+PSQP - Preconditioned Sequential Quadratic Programming
+ALGENCAN - Augmented Lagrangian with GENCAN
+FILTERSD
+MMA - Method of Moving Asymptotes
+GCMMA - Globally Convergent Method of Moving Asymptotes
+CONMIN - CONstrained function MINimization
+MMFD - Modified Method of Feasible Directions
+KSOPT - Kreisselmeier–Steinhauser Optimizer
+COBYLA - Constrained Optimization BY Linear Approximation
+SDPEN - Sequential Penalty Derivative-free method for Nonlinear constrained optimization
+SOLVOPT - SOLver for local OPTimization problems
+ALPSO - Augmented Lagrangian Particle Swarm Optimizer
+NSGA2 - Non Sorting Genetic Algorithm II
+ALHSO - Augmented Lagrangian Harmony Search Optimizer
+MIDACO - Mixed Integer Distributed Ant Colony Optimization
+
+
