@@ -82,18 +82,23 @@ predicate exactlyone(array[int] of var bool:x) =
   atmostone(x) /\ exists(x);
 
 % there has to be one direction per ply
-constraint forall(p in Plies)(exactlyone(X[p, Directions]));
+constraint forall(p in Plies)
+    (exactlyone(X[p, Directions]));
 
 % Ein paar Hilfsvariable
 array[Cells] of Plies: MinThickness = [sum(row(MinPlyCount, c)) | c in Cells];
 
-function var int: counts_per_angle(Cells: c, Directions: a) = sum(p in Plies)(bool2int(active[c, p] /\ X[p, a]));
-function var int: thickness(Cells: c) = sum(p in Plies)(bool2int(active[c, p]));
+function var int: counts_per_angle(Cells: c, Directions: a) = 
+    sum(p in Plies)(bool2int(active[c, p] /\ X[p, a]));
+    
+function var int: thickness(Cells: c) = 
+    sum(p in Plies)(bool2int(active[c, p]));
 
 % ---------------------------------------
 % Constraint 1: MinPlyCount per direction
 % ---------------------------------------
-constraint forall (c in Cells, a in Directions) (counts_per_angle(c, a) >= MinPlyCount[c, a]);
+constraint forall (c in Cells, a in Directions) 
+    (counts_per_angle(c, a) >= MinPlyCount[c, a]);
 
 
 % ----------------------
